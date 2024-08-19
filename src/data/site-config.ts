@@ -49,15 +49,15 @@ const siteConfig: SiteConfig = {
         {
             text: 'Home',
             href: '/'
-        }
+        },
         // {
         //     text: 'Projects',
         //     href: '/projects'
         // }
-        // {
-        //     text: 'Blog',
-        //     href: '/blog'
-        // },
+        {
+            text: 'Courses',
+            href: '/blog'
+        }
         // {
         //     text: 'Tags',
         //     href: '/tags'
@@ -106,8 +106,8 @@ const siteConfig: SiteConfig = {
         ]
     },
     subscribe: {
-        title: 'Subscribe to Dante Newsletter',
-        text: 'One update per week. All the latest posts directly in your inbox.',
+        title: 'Be the first to know when Coding with Cursor is ready',
+        text: '',
         formUrl: '#'
     },
     postsPerPage: 8,
